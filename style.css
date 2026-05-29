@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site Pessoal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="logo">MeuLogo</div>
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="content-container">
+        
+        <section id="home" class="hero-section">
+            <h1>Bem-vindo ao Meu Projeto</h1>
+            <p>Este é um modelo de página estruturado e pronto para ser estilizado com CSS.</p>
+            <button class="btn-primary">Saiba Mais</button>
+        </section>
+
+        <section id="sobre" class="about-section">
+            <h2>Sobre Nós</h2>
+            <p>Aqui você pode adicionar uma breve descrição sobre o que é o seu site, sua missão ou seu objetivo.</p>
+        </section>
+
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; 2026 Meu Site. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
